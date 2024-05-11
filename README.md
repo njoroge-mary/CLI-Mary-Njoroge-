@@ -1,6 +1,6 @@
 # Bookstore Inventory Management CLI
 
-This is a simple command-line interface (CLI) application for managing a bookstore's inventory. The application allows users to add authors, add books, view authors, view books by author, and exit the program.
+This is a simple command-line interface (CLI) python application for managing a bookstore's inventory. The application allows users to add authors, add books, view authors, view books by author, delete author, find author by ID, delete book, find book by ID and exit the program.
 
 ## Requirements
 
@@ -12,19 +12,15 @@ This is a simple command-line interface (CLI) application for managing a booksto
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/yourusername/bookstore-cli.git
+    git clone https://github.com/njoroge-mary/CLI-Mary-Njoroge-.git
     ```
 
 2. Navigate to the project directory:
 
-    ```bash
-    cd bookstore-cli
-    ```
-
 3. Run the main.py script:
 
     ```bash
-    python main.py
+    python3 main.py
     ```
 
 ## Usage

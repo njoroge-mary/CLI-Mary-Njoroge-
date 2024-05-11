@@ -35,7 +35,7 @@ class Database:
         self.cur.execute("SELECT * FROM authors WHERE id = ?", (author_id,))
         return self.cur.fetchone()
 
-    def add_book(self, title, author_id):
+    def add_book(self, title, author_id): 
         self.cur.execute("INSERT INTO books (title, author_id) VALUES (?, ?)", (title, author_id))
         self.conn.commit()
 
